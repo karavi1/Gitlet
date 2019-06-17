@@ -1,0 +1,12 @@
+class hi {
+	public static void main(String[] args) {
+		int[] x = new int[]{0, 1, 2, 3, 4};
+		int[] y = new int[]{0, 1, 2, 3, 4};
+		function(x, y);
+		System.out.println(x == y);
+	}
+
+	public static void function(int[] x, int[] y) {
+		y = x;
+	}
+}
